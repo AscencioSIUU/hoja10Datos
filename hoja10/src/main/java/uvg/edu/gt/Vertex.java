@@ -2,9 +2,9 @@ package uvg.edu.gt;
 
 public class Vertex<T> {
      private int id;
-     private T data; // generic
+     private T data;
 
-     public Vertex(int id, T data) { // constructor
+     public Vertex(int id, T data) {
           this.id = id;
           this.data = data;
      }
