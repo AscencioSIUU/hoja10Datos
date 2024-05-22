@@ -15,7 +15,7 @@ public class App {
         Graph graph = new Graph(0);
 
         try {
-            graph.initializeGraphFromFile("/guategrafo.txt");
+            graph.initializeGraphFromFile("guategrafo.txt");
         } catch (IOException e) {
             System.err.println("Error al leer el archivo: " + e.getMessage());
             return;
